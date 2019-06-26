@@ -17,12 +17,14 @@ h1{
 
 /* FAQ & Weitere Informationsquellen */
 .faq_weitere_informationsquellen{
+  position: relative;
   font-family: 'Trebuchet MS';
-  font-size: 1.5em;
-  padding-left: 0.8em;
   color: #09026C;
   text-align: center;
-  margin-top: 5em;
+  top: 2em;  
+  width: 24em;
+  margin: 0 auto;
+  font-size: 1.5em;
 }
 
 
@@ -91,10 +93,10 @@ p{
 
   
   /* Icons */
-    .icons{
-      float: right;
-      margin-right: 4em;
-      }
+  .icons{
+    text-align: right;
+    margin-right: 2em;
+ }
 
 
   /* Navigation Bar Unterstreichen*/
