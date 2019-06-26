@@ -9,6 +9,7 @@
     background-size: cover;*/
   }
 
+
 /* Navigation */
   
   /* Titel */
@@ -36,8 +37,8 @@
 
   /* Icons */
     .icons{
-       float: right;
-       margin-right: 4em;
+       text-align: right;
+       margin-right: 2em;
     }
 
 
@@ -63,7 +64,7 @@
       border-radius: 4px;
     }
 
-    .navigation{
+     .navigation{
       margin: 0px 0px;
       padding: 0px 0px;
       margin-top: 1.4em;
@@ -145,17 +146,25 @@
 
   /* Typewriter: Herzlich Willkommen im Land der Agilität */
   .line-1{
-    
+    position: relative;
     font-family: 'Trebuchet MS';
     color: #09026C;
+    text-align: center;
     top: 2em;  
     width: 24em;
+    margin: 0 auto;
     border-right: 4px solid rgba(247, 132, 0, 0.75);
     font-size: 1.5em;
     white-space: nowrap;
     overflow: hidden;
-    position: relative;
-    left: 38%;   
+    transform: translateY(-50%);    
+}
+
+h2{
+  position: relative;
+    font-family: 'Trebuchet MS';
+    color: #09026C;
+  text-align: center;
 }
 
 /* Animation */
