@@ -53,12 +53,10 @@ p{
       margin: 0;
       padding: 0;
       overflow: hidden;
-      position: fixed;
+      position: relative;
       top: 0;
       width: 100%;
-      font-family: 'Trebuchet MS';
-      position: relative;
-    
+      font-family: 'Trebuchet MS';    
     }
 
   /* Navigation Button */
@@ -129,7 +127,8 @@ p{
   th{
       font-size: 20px;
   }
-  tr:nth-child(even) {background-color: #E1E1E2;}
+  tr:nth-child(even) {background-color: #89CBF8;}
+  tr:nth-child(odd) {background-color: #D6EFFF;}
 
 
 
