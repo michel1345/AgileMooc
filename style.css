@@ -145,18 +145,17 @@
 
   /* Typewriter: Herzlich Willkommen im Land der Agilität */
   .line-1{
-    position: relative;
+    
     font-family: 'Trebuchet MS';
     color: #09026C;
     top: 2em;  
     width: 24em;
-    margin: 0 auto;
-    margin-left: 30em;
     border-right: 4px solid rgba(247, 132, 0, 0.75);
     font-size: 1.5em;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    position: relative;
+    left: 38%;   
 }
 
 /* Animation */
