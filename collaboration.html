@@ -25,10 +25,18 @@
 </div>
   
  <hr width="95%"/>
- <div class="icons">
-   <img src="Images/Bild5.svg" width="40" height="40">
-   <img src="Images/Bild6.svg" width="40" height="40">
- </div>
+  <!-- Dropdown Sprachauswahl -->
+    <div class="icons">
+      <div class="dropdown">
+        <button class="dropbtn"><img src="Images/Bild5.svg" width="40" height="40"></button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">Französisch</a>
+          <a href="#">Italienisch</a>
+        </div>
+       </div>
+      <img src="Images/Bild6.svg" width="40" height="40">
+    </div>
 
 
 
@@ -202,86 +210,117 @@
    
    <div class="übersicht">
       <h2>Link-Übersicht aller MOOC-Gruppen​</h2>
-      <img class="phone" src="Images/Bild17.jpg" width="150px" height="auto">
-     <table>
-        <col width="130">
-        <col width="80">
-       <tr>
-         <th width=1>Gruppe</th>
-         <th>Wochenaufgaben</th>
-         <th>Dokumenten-Ablage</th>
-         <th>Gruppen-Forum</th>
-         <th>Gruppen-Skype-Session <i>​(Link funktioniert nur via Internet Explorer)​</i></th>
-         <th>Skype-​​Konferenzerkennung
-          Falls du per Telefon teilnimmst.
-          Tel. +41582216000)</th>
-       </tr>
-       <tr>
-         <td>1</td>
-         <td>Planner Gruppe 01</td>
-         <td>Dokumente Gruppe 01</td>
-         <td>Forum Gruppe 01</td>
-         <td>Skype Gruppe 01</td>
-         <td>​28077983</td>
-       </tr>
-       <td>2</td>
-         <td>Planner Gruppe 02</td>
-         <td>Dokumente Gruppe 02</td>
-         <td>Forum Gruppe 02</td>
-         <td>Skype Gruppe 02</td>
-         <td>​​79180784</td>
-       </tr>
-       <td>3</td>
-         <td>Planner Gruppe 03</td>
-         <td>Dokumente Gruppe 03</td>
-         <td>Forum Gruppe 03</td>
-         <td>Skype Gruppe 03</td>
-         <td>​​877867128</td>
-       </tr>
-       <tr>
-         <td>4</td>
-         <td>Planner Gruppe 04</td>
-         <td>Dokumente Gruppe 04</td>
-         <td>Forum Gruppe 04</td>
-         <td>Skype Gruppe 04</td>
-         <td>​​​67781895</td>
-       </tr>
-       <tr>
-         <td>5</td>
-         <td>Planner Gruppe 05</td>
-         <td>Dokumente Gruppe 05</td>
-         <td>Forum Gruppe 05</td>
-         <td>Skype Gruppe 05</td>
-         <td>​​​31231205</td>
-       </tr> 
-       <tr>
-        <td>6</td>
-        <td>Planner Gruppe 06</td>
-        <td>Dokumente Gruppe 06</td>
-        <td>Forum Gruppe 06</td>
-        <td>Skype Gruppe 06</td>
-        <td>​​​​46450784</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Planner Gruppe 07</td>
-        <td>Dokumente Gruppe 07</td>
-        <td>Forum Gruppe 07</td>
-        <td>Skype Gruppe 07</td>
-        <td>​​​​62020194</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Planner Gruppe 08</td>
-        <td>Dokumente Gruppe 08</td>
-        <td>Forum Gruppe 08</td>
-        <td>Skype Gruppe 08</td>
-        <td>​​​​42880784</td>
-      </tr>
-       
-     </table>
+      <table>
+          <colgroup>
+            <col id="spalte1">
+          </colgroup>
+          <colgroup>
+            <col id="spalte2">
+          </colgroup>
+          <colgroup>
+            <col id="spalte3">
+          </colgroup>
+          <colgroup>
+            <col id="spalte4">
+          </colgroup>
+          <colgroup>
+            <col id="spalte5">
+          </colgroup>
+          <colgroup>
+            <col id="spalte6">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Gruppe</th>
+              <th>Wochenaufgaben</th>
+              <th>Dokumenten-Ablage</th>
+              <th>Gruppen-Forum</th>
+              <th>Gruppen-Skype-Session ​(Link funktioniert nur via Internet Explorer)​</th>
+              <th>Skype-​​Konferenzerkennung
+                  Falls du per Telefon teilnimmst.
+                  Tel. +41582216000)</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>  
+              <td>Planner <br> Gruppe 01</td>  
+              <td>Dokumente Gruppe 01</td>  
+              <td>Forum Gruppe 01</td>  
+              <td>Skype Gruppe 01</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>2</td>  
+              <td>Planner <br> Gruppe 02</td>  
+              <td>Dokumente Gruppe 02</td>  
+              <td>Forum Gruppe 02</td>  
+              <td>Skype Gruppe 02</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>3</td>  
+              <td>Planner <br> Gruppe 03</td>  
+              <td>Dokumente Gruppe 03</td>  
+              <td>Forum Gruppe 03</td>  
+              <td>Skype Gruppe 03</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>4</td>  
+              <td>Planner <br> Gruppe 04</td>  
+              <td>Dokumente Gruppe 04</td>  
+              <td>Forum Gruppe 04</td>  
+              <td>Skype Gruppe 04</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>5</td>  
+              <td>Planner <br> Gruppe 05</td>  
+              <td>Dokumente Gruppe 05</td>  
+              <td>Forum Gruppe 05</td>  
+              <td>Skype Gruppe 05</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>6</td>  
+              <td>Planner <br> Gruppe 06</td>  
+              <td>Dokumente Gruppe 06</td>  
+              <td>Forum Gruppe 06</td>  
+              <td>Skype Gruppe 06</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>7</td>  
+              <td>Planner <br> Gruppe 07</td>  
+              <td>Dokumente Gruppe 07</td>  
+              <td>Forum Gruppe 07</td>  
+              <td>Skype Gruppe 07</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>8</td>  
+              <td>Planner <br> Gruppe 08</td>  
+              <td>Dokumente Gruppe 08</td>  
+              <td>Forum Gruppe 08</td>  
+              <td>Skype Gruppe 08</td>  
+              <td>​28077983</td>  
+            </tr>
+            <tr>
+              <td>9</td>  
+              <td>Planner <br> Gruppe 09</td>  
+              <td>Dokumente Gruppe 09</td>  
+              <td>Forum Gruppe 09</td>  
+              <td>Skype Gruppe 09</td>  
+              <td>​28077983</td>  
+            </tr>
+          </tbody>
+        </table> 
    </div>
  
+  
+   <img class="phone" src="Images/Bild17.jpg" width="220px" height="auto">
  
  <!--Newsfeed-->
    <div class="newsfeed">
