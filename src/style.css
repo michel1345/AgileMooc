@@ -3,9 +3,9 @@
     margin:0;
     width: 100%;
     height: 100%;
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   }
 
@@ -51,7 +51,7 @@
        text-decoration: none;
        color: #09026C;
        margin-right: 1em;
-       margin-top: 0.5em;
+       margin-top: -6px;
     }
 
     .navigation a:hover:not(.active) {
@@ -72,13 +72,17 @@
       float: right;
     }
 
+      .setTextunder, p{
+      margin: 0px 0px;
+      }
+      
 
   /* Navigation Unterstreichen*/
      hr {
       background-color:#08034C;
       color:#08034C;
       border:#08034C;
-      height:3px;
+      height: 3px;
       position: relative;
       margin-top: -1em;
     }
@@ -86,55 +90,61 @@
 
 /* Dropdown Sprachauswahl */
 .dropbtn {
+  background-color:#0A80C4;
+  font-family: 'Trebuchet MS';
+  color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 .dropdown {
+  font-family: 'Trebuchet MS';
   position: relative;
   display: inline-block;
-  font-family: 'Trebuchet MS';
-  color: #fff;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #0A80C4;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(74, 91, 243, 0.2);
+  background-color: #7CA4CE;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px #7CA4CE;
   z-index: 1;
-  border-radius: 10px;
 }
 
 .dropdown-content a {
-  color: #fff;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #015687}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #84BADA;
-  border-radius: 10px;
+  background-color: #09026C;
 }
-
 
 
 /* Bild Links */
     .img1{
-      margin-left: 4em;
+      margin: 4em;
       float: left;
-      position: absolute;
-      margin-top: 4em;
+      position: relative;
+    }
+  
+/* Bild Rechts */
+    .img2{
+      margin: 4em;
+      float: right;
+      position: relative;
     }
 
 
@@ -167,7 +177,8 @@
   
   th, td {
     padding: 15px;
-    font-size: 17px;
+    font-size: 18px;
+    text-align: center;
   }
 
   th{
@@ -222,5 +233,42 @@ h2{
 
 
 
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #015DBF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: center;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

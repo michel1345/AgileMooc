@@ -14,27 +14,21 @@
  <body>
  
 <!--Navigation-->
- <div>    
-   <ul>
-     <li><h1 class="titel">Discover Agile</h1></li>
-     <li class="navigation"><a href="faq.html"><img src="images/Bild4.svg" width="40" height="40" alt="faq image">FAQ & more</a></li>
-     <li class="navigation"><a class="active" href="badges.html"><img src="images/Bild3.svg" width="40" height="40" alt="badge image">Badges</a></li>
-     <li class="navigation"><a href="collaboration.html"><img src="images/Bild2.svg" width="40" height="40" alt="collaboration image">Collaboration</a></li>
-     <li class="navigation"><a href="index.html"><img src="images/Bild1.svg" width="40" height="40" alt="home image">Home</a></li>
-   </ul>
-</div>
+<div>    
+    <ul>
+      <div class="setTextunder">
+      <li><h1 class="titel">Discover Agile</h1></li>
+      <li class="navigation"><a href="faq.html"><img src="images/Bild4.svg" width="40" height="40" alt="faq image"><p>FAQ & more</p></a></li>
+      <li class="navigation"><a class="active" href="badges.html"><img src="images/Bild3.svg" width="40" height="40" alt="badge image"><p>Badges</p></a></li>
+      <li class="navigation"><a href="collaboration.html"><img src="images/Bild2.svg" width="40" height="40" alt="collaboration image"><p>Collaboration</p></a></li>
+      <li class="navigation"><a href="index.html"><img src="images/Bild1.svg" width="40" height="40" alt="home image"><p>Home</p></a></li>
+      </div>
+    </ul>
+  </div>
   
  <hr width="95%"/>
      <!-- Dropdown Sprachauswahl -->
     <div class="icons">
-      <div class="dropdown">
-        <button class="dropbtn"><img src="Images/Bild5.svg" width="40" height="40"></button>
-        <div class="dropdown-content">
-          <a href="#">Deutsch</a>
-          <a href="#">Französisch</a>
-          <a href="#">Italienisch</a>
-        </div>
-       </div>
       <img src="Images/Bild6.svg" width="40" height="40">
     </div>
 
@@ -64,15 +58,90 @@
  </div>
 
  
-<!--Bilder--> 
+ <!--Top 10 Contributors-->
+ <div class="gruppeneinteilung">
+    <h3>Hier siehst du die derzeitigen Top 10 Contributors</h3>
+    <p><i>Schaffst du es auch auf diese Liste?</i></p>
 
- <div class="bilder">
-   <img src="Images/Bild12.png" width="220" height="auto"> <br>
-   <img src="Images/Bild13.png" width="220" height="auto"> <br>
-   <img src="Images/Bild14.png" width="220" height="auto"> <br>
-   <img src="Images/Bild15.png" width="220" height="auto"> <br>
-   <img src="Images/Bild16.png" width="220" height="auto"> <br>
- </div>
+    <table>
+      <tr>
+        <th>Punkte</th>
+        <th>Nachname</th>
+        <th>Vorname</th>
+      </tr>
+      <tr>
+        <td>1260</td>
+        <td>Maria-Diana</td>
+        <td>Dogaru</td>
+      </tr>
+      <tr>
+        <td>625</td>
+        <td>Forster</td>
+        <td>Matthias</td>
+      </tr>
+      <tr>
+       <td>580</td>
+       <td>Roland</td>
+       <td>Robel</td>
+     </tr>
+     <tr>
+       <td>460</td>
+       <td>Deriaz</td>
+       <td>Manuel</td>
+     </tr>
+     <tr>
+       <td>265</td>
+       <td>Mathea</td>
+       <td>Christian</td>
+     </tr>
+     <tr>
+       <td>240</td>
+       <td>Magoc</td>
+       <td>Ernö</td>
+     </tr>
+     <tr>
+       <td>230</td>
+       <td>Blättler</td>
+       <td>Reto</td>
+     </tr>
+     <tr>
+       <td>225</td>
+       <td>Fuhrimann</td>
+       <td>Reto</td>
+     </tr>
+     <tr>
+       <td>210</td>
+       <td>Müller</td>
+       <td>Carin</td>
+     </tr>
+     <tr>
+       <td>205</td>
+       <td>Lüthi</td>
+       <td>Simon</td>
+     </tr>
+    </table>
+  </div>
+
+ 
+<!--Contribution Points--> 
+
+<div class="ContributionPoints">
+    <img src="Images/Bild22.jpeg" width="275" height="auto">
+    <h3>High Flyer</h3>
+    <h4>>350 contribution points</h4><br>
+    <img src="Images/Bild23.jpg" width="275" height="auto">
+    <h3>Rock Climber</h3>
+    <h4>201-350 contribution points</h4><br>
+    <img src="Images/Bild24.jpg" width="275" height="auto">
+    <h3>Deep Diver</h3>
+    <h4>101-200 contribution points</h4><br>
+    <img src="Images/Bild48.jpg" width="275" height="auto">
+    <h3>Curious Explorer</h3>
+    <h4>51-100 contribution points</h4><br>
+    <img src="Images/Bild26.jpg" width="275" height="auto">
+    <h3>Couch Potato</h3>
+    <h4>0-50 contribution points</h4><br>
+  </div>
 
 
 <!--Wie gelangst du an deine Punkte?---> 
@@ -84,40 +153,6 @@
    </p>
  </div>
 
-
-<!--Newsfeed--->
-<div class="newsfeed">
-  <form action="/action_page.php" style="max-width:500px;margin:auto">
-  <h2>Newsfeed</h2>
-    
-   <div class="input-container">
-     <span style="font-size: 48px; color: Dodgerblue;">
-       <i class="fas fa-comments"></i>
-     </span>
-     <input class="input-field" type="text" placeholder="Eine Unterhaltung beginnen">
-   </div>
-  
-   <div class="input-container">
-     <span style="font-size: 48px; color: Dodgerblue;">
-       <i class="fas fa-folder"></i>
-     </span>
-     <input class="input-field" type="file" placeholder="zusätzliche Dateien">
-   </div>
-    
-   <button type="submit" class="btn">Bereitstellen</button>
-  </form>
-
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque cupiditate corporis suscipit consequatur nobis, nesciunt iure quasi aperiam! Nam vitae iusto ex similique at et rem vero corrupti deserunt.</p>
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sint placeat pariatur labore corrupti iusto molestiae repellendus sequi praesentium, rerum, quo eaque explicabo! Nostrum eos molestias consequatur excepturi, impedit officiis!</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet nesciunt aliquam minima voluptate voluptates quos accusantium, et culpa saepe, accusamus praesentium impedit ullam sint ipsum? Sequi voluptatum voluptatem quos quasi?</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero, quaerat quisquam asperiores dolorem sapiente voluptatem esse distinctio placeat. Eveniet sed nemo distinctio atque iste provident placeat natus. Rem, molestiae.</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero, quaerat quisquam asperiores dolorem sapiente voluptatem esse distinctio placeat. Eveniet sed nemo distinctio atque iste provident placeat natus. Rem, molestiae.</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero, quaerat quisquam asperiores dolorem sapiente voluptatem esse distinctio placeat. Eveniet sed nemo distinctio atque iste provident placeat natus. Rem, molestiae.</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero, quaerat quisquam asperiores dolorem sapiente voluptatem esse distinctio placeat. Eveniet sed nemo distinctio atque iste provident placeat natus. Rem, molestiae.</p>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat libero, quaerat quisquam asperiores dolorem sapiente voluptatem esse distinctio placeat. Eveniet sed nemo distinctio atque iste provident placeat natus. Rem, molestiae.</p>
-  
-   <button class="button button2" style="width: 100%">Weitere Beiträge anzeigen</button>
-</div>
    
  </body>
 </html>
